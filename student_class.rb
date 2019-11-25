@@ -18,6 +18,8 @@ class Student
     @student_cohort = cohort
   end
 
-
+  def student_can_talk(sentence)
+    return sentence
+  end
 
 end
