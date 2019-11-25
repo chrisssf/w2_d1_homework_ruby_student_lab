@@ -13,8 +13,11 @@ class Student
     @student_cohort
   end
 
-  def set_student_name(name)
+  def set_student_name_and_cohort(name, cohort)
     @student_name = name
+    @student_cohort = cohort
   end
+
+
 
 end
