@@ -22,4 +22,7 @@ class Student
     return sentence
   end
 
+  def student_favourite_language(language)
+    return "I love #{language}"
+  end
 end
